@@ -63,4 +63,4 @@ The developer is not responsible for any misuse of this tool.
 👨‍💻 Developed By
 
 Vinayak Rudrawar
-Cybersecurity Enthusiast | Ethical Hacking Learner
+Cybersecurity Enthusiast | Cyber Security Intern and learner
