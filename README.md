@@ -1,27 +1,66 @@
-# SQL Injection Scanner
+🔐 Web Vulnerability Scanner
+📌 About the Project
 
-This project is developed as part of **Syntecxhub Cyber Security Internship – Task 3**.
+This project is a Web Vulnerability Scanner developed to analyze user-provided websites and identify potential security weaknesses.
+Initially, the scanner was limited to testing DVWA (Damn Vulnerable Web Application) only, but it has now been enhanced to accept dynamic user input, allowing security testing on multiple demo and practice websites.
 
-## 🔍 About
-A lightweight Python-based SQL Injection vulnerability scanner that:
-- Tests web inputs using common SQLi payloads
-- Detects SQL error messages
-- Logs vulnerable endpoints
-- Implements rate limiting and concurrency
+The tool helps beginners understand how vulnerabilities are detected and how security posture can be evaluated in a controlled environment.
 
-## ⚠️ Ethical Use
-This tool is strictly for **educational purposes**.
-Only test on:
-- DVWA
-- Localhost apps
-- Authorized test environments
+⚙️ How It Works
 
-## 🚀 Features
-- Multiple payload testing
-- Error-based detection
-- Concurrent scanning
-- Result logging
+The user enters a target website URL.
 
-## 🛠️ Installation
-```bash
-pip install -r requirements.txt
+The scanner sends automated requests to the provided site.
+
+It checks for common vulnerabilities such as:
+
+SQL Injection
+
+Cross-Site Scripting (XSS)
+
+Improper Input Validation
+
+Basic Security Misconfigurations
+
+After analysis, the tool generates a vulnerability status report showing:
+
+Detected issues
+
+Risk level
+
+Basic mitigation guidance
+
+🌐 Supported Targets
+
+This scanner can be used on:
+
+Practice labs like DVWA, bWAPP, OWASP Juice Shop
+
+Any sample or demo website
+
+Locally hosted test applications
+
+⚠️ This tool is intended only for legal and authorized security testing.
+
+🎯 Key Features
+
+Accepts dynamic user input (no hardcoded targets)
+
+Works with multiple testing environments
+
+Beginner-friendly design
+
+Generates clear and simple vulnerability status
+
+Ideal for ethical hacking learning and practice
+
+⚠️ Disclaimer
+
+This project is developed strictly for educational and ethical purposes.
+Do not use this tool on any live or production website without proper authorization.
+The developer is not responsible for any misuse of this tool.
+
+👨‍💻 Developed By
+
+Vinayak Rudrawar
+Cybersecurity Enthusiast | Ethical Hacking Learner
