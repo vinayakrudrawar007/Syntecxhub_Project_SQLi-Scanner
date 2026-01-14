@@ -54,6 +54,25 @@ Generates clear and simple vulnerability status
 
 Ideal for ethical hacking learning and practice
 
+## 📸 Project Screenshots
+
+### 🔹 Code Implementation
+![Code Screenshot](screenshots/code.png)
+
+### 🔹 Scanner Output
+## 📸 Project Screenshots
+
+### 🔹 Code Implementation
+![Code Screenshot](screenshots/code.png)
+
+### 🔹 Scanner Output
+![Output Screenshot](screenshots/output.png)
+
+### 🔹 Scanner Output
+![Output Screenshot](screenshots/output2.png)
+
+
+
 ⚠️ Disclaimer
 
 This project is developed strictly for educational and ethical purposes.
